@@ -1,0 +1,22 @@
+p::first-letter{
+	font-size: 2em;
+}
+p::first-line {
+	color:purple;
+}
+li::before {
+	background-image: url("img/check.png");
+	content: "";
+	width: 100px;
+}
+p::before {
+	content: "Leer...";
+	color: red;
+	font-weight: bold;
+}
+div.fondo{
+	background-image:url("img/paisaje.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
